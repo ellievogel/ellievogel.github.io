@@ -1,4 +1,4 @@
-# Undergraduate Research Experience Website
+# Undergraduate Research Experience Website: Summer 2024
 
 ## Project Description
 
