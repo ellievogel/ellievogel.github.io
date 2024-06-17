@@ -1,4 +1,4 @@
-# Undergraduate Research Experience: Blog and Final Report
+# Undergraduate Research Experience Website
 
 ## Project Description
 
