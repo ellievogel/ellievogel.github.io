@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Summer 2020 DREU Project Site
+title: Summer 2024 DREU Project Site
 ---
 
 * TOC
@@ -18,7 +18,7 @@ Dr. Martonosi started as a faculty member in the Department of Electrical Engine
 
 ## About My Project
 
-This summer, I am working to develop benchmarks to run on various quantum computers, comparing their results and revealing advantageous connections between various quantum computing applications and quantum architectures.
+This summer, I am working on CutQC: an open source code repository for quantum circuit cutting. After implementing current Qiskit syntax in the repository, I mapped the classical reconstruction of quantum information onto GPUs, eventually utilizing parallel GPUs to achieve better runtime. In my research, I also analyze the current state of the art capabilities of the classical simulation of quantum circuits.
 
 [My Final Report](files/finalreport.pdf)
 
