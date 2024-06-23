@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Fill this in!
+CutQC is an open source repository for the cutting of large quantum circuits into smaller subcircuits. It utilizes classical reconstruction techniques to evaluate the output of quantum circuits too large to fit on todays quantum computers with reasonable fidelity. My project this summer is to contribute to this code repository by utilizing GPU capabilites to improve the classical reconstruction step in its speed and size constraints. To do this, I will utilize NVIDIA's parallel computing platform CUDA, as well as Princeton Universities computer clusters.
 
 ## Blog Posts
 
