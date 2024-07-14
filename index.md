@@ -18,7 +18,7 @@ Dr. Martonosi started as a faculty member in the Department of Electrical Engine
 
 ## About My Project
 
-This summer, I am working on CutQC: an open source code repository for quantum circuit cutting. After implementing current Qiskit syntax in the repository, I mapped the classical reconstruction of quantum information onto GPUs, eventually utilizing parallel GPUs to achieve better runtime. In my research, I also analyze the current state of the art capabilities of the classical simulation of quantum circuits.
+This summer, I am working on CutQC: an open source code repository for quantum circuit cutting. The current code repository utilizes a single-node, multi-threaded implementation for the classical post-processing step. In my work, we enhance the reconstruction process. We contribute to CutQC a multi-node, single-threaded implementation of the classical post-processing step, as well as a multi-GPU implementation, utilizing PyTorch. We execute circuits of up to 35 qubits on 10- and 15- qubit QCs, and examine the reconstruction runtime. We utilize single-node, multi-threaded computation as a baseline, and then compare the results to the runtimes of our contributed workflows.
 
 [My Final Report](files/finalreport.pdf)
 
