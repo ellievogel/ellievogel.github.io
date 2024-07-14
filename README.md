@@ -2,7 +2,7 @@
 
 ## Project Description
 
-CutQC is an open source repository for the cutting of large quantum circuits into smaller subcircuits. It utilizes classical reconstruction techniques to evaluate the output of quantum circuits too large to fit on todays quantum computers with reasonable fidelity. My project this summer is to contribute to this code repository by utilizing both multi-node and multi-GPU implementations to improve the classical reconstruction step in its speed and size constraints. To do this, I will utilize NVIDIA's parallel computing platform CUDA, as well as Princeton University's research computing clusters.
+This summer, I am working on CutQC: an open source code repository for quantum circuit cutting. The current code repository utilizes a single-node, multi-threaded implementation for the classical post-processing step. In my work, we enhance the reconstruction process. We contribute to CutQC a multi-node, single-threaded implementation of the classical post-processing step, as well as a multi-GPU implementation, utilizing PyTorch. We execute circuits of up to 35 qubits on 10- and 15- qubit QCs, and examine the reconstruction runtime. We utilize single-node, multi-threaded computation as a baseline, and then compare the results to the runtimes of our contributed workflows.
 
 ## Blog Posts
 
